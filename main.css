@@ -1,0 +1,95 @@
+/*====BASE STYLES====*/
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: .05rem;
+  text-align: justify;
+  background-color: rgba(113, 114, 115, 0.6);
+  align-content: center;
+}
+
+@media (min-width: 1025px) {
+  .button {
+  position: relative;
+  left: 42rem;
+}
+}
+
+.opening {
+  border-radius: 10px;
+}
+
+/*====TYPO AND COLORS====*/
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.lead {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+p::first-letter {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
+
+.breed-info, .personality {
+  background-color: #ffccdd;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+strong, .personality {
+  color: #cc6699;
+}
+
+.video {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.sub {
+  background-color: #ffccdd;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  font-size: 1.8rem;
+  color: #cc6699;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sub:hover {
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+caption, h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
+
+table {
+  background-color: #ffe6f2;
+}
+
+.table-bordered, ul {
+  border: 2px solid white;
+}
+
+h3 {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.list-group-item {
+  background-color: #ffe6f2;
+}
